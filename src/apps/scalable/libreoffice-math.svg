@@ -19,7 +19,7 @@
         stroke-linejoin: round;
       }
 
-      .cls-14, .cls-2, .cls-7 {
+      .cls-14, .cls-2, .cls-6 {
         isolation: isolate;
       }
 
@@ -39,12 +39,16 @@
         fill: url(#Dégradé_sans_nom_4);
       }
 
-      .cls-6, .cls-12, .cls-13 {
+      .cls-6 {
+        opacity: .15;
+      }
+
+      .cls-7, .cls-12, .cls-13 {
         fill: none;
       }
 
-      .cls-7 {
-        opacity: .15;
+      .cls-16 {
+        opacity: .75;
       }
 
       .cls-8 {
@@ -90,11 +94,11 @@
       <stop offset="1" stop-color="#ffefcc"/>
     </linearGradient>
   </defs>
-  <rect class="cls-6" width="64" height="64"/>
+  <rect class="cls-7" width="64" height="64"/>
   <rect class="cls-5" x="4" y="3.97" width="56" height="56" rx="13" ry="13"/>
-  <g>
+  <g class="cls-16">
     <path class="cls-2" d="m24.5,20.48c-2.22,0-4,1.78-4,4v15c0,2.22,1.78,4,4,4h15c2.22,0,4-1.78,4-4v-15c0-2.22-1.78-4-4-4h-15Zm0,.51h14v1.5h-16.02v.5h16.02v1.5h-15.72v.5h15.72v17.63h.5v-17.63h1.5v16.1h.5v-16.1h1.98v14.48c0,1.92-1.55,3.48-3.47,3.48,0,0,0,0-.01,0h-15c-1.92,0-3.48-1.55-3.48-3.47,0,0,0,0,0-.01v-15c0-1.92,1.55-3.48,3.47-3.48,0,0,0,0,.01,0h0Zm14.5,0h.5c.34,0,.68.05,1,.15v1.35h-1.5v-1.5Zm2,.34c.55.26,1.02.66,1.37,1.16h-1.37v-1.16Zm-2,1.66h1.5v1.5h-1.5v-1.5Zm2,0h1.65c.22.46.33.97.33,1.48v.02h-1.99v-1.5Z"/>
-    <path class="cls-7" d="m24.5,19c-3.02,0-5.48,2.44-5.49,5.46,0,0,0,.02,0,.02v15c0,3.02,2.44,5.48,5.46,5.49,0,0,.02,0,.02,0h15c3.02,0,5.48-2.44,5.49-5.46,0,0,0-.02,0-.02v-9.02c0-3.46-8.26-11.46-11.59-11.46h-8.89Z"/>
+    <path class="cls-6" d="m24.5,19c-3.02,0-5.48,2.44-5.49,5.46,0,0,0,.02,0,.02v15c0,3.02,2.44,5.48,5.46,5.49,0,0,.02,0,.02,0h15c3.02,0,5.48-2.44,5.49-5.46,0,0,0-.02,0-.02v-9.02c0-3.46-8.26-11.46-11.59-11.46h-8.89Z"/>
     <path class="cls-8" d="m24.5,19.5c-2.77,0-5,2.23-5,5v15c0,2.56,1.93,4.71,4.48,4.97.29-.01.57-.02.72,0h0c.19.02.39.03.59.03h14.19c2.77,0,5-2.23,5-5v-8.83c0-2.68-8.48-11.17-11.16-11.17h-8.84Z"/>
     <image class="cls-14" width="43" height="41" transform="translate(21.25 23.24) scale(.5)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAqCAYAAADI3bkcAAAACXBIWXMAABYlAAAWJQFJUiTwAAADtUlEQVRYhWIYUoCBgQEAAAD//2LE42B8ctQE/4k2jIGBAQAAAP//wuYoZDFcbEoAsgNxsbEDBgYGAAAAAP//YsHhWBCNjU3Is9gANofAxEA0ujxuhzMwMAAAAAD//8IWgjAHgjATFsdTCpAdCaL/IYkhi2MCBgYGAAAAAP//whbCMIciY2RPUMvBMMeCzER3OHZHMzAwAAAAAP//gjkYPXRBjmSGYpjDqeFodMciY5C5f7GoRwAGBgYAAAAA//9CDmGYQ2AOhDkYpAbZ0ZQAmANgoQlyIIgNomGOhXkC09EMDAwAAAAA//8ilCRA8sghTc0QBmGQmSCHopuJnCxgSYaBgYGBAQAAAP//wuVgZEfjcjApDkcvvpAdjB5z2NI3BDAwMAAAAAD//8KWJLA5GuZwSksL9OIMW8giY5iDITQDAwMAAAD//0IPYWTH4yreKEkSML24yl9Y+gXZB0vHiFBmYGAAAAAA///C5WBkw6ld8yGHLMhhMDFcxSjCYwwMDAAAAAD//4JpIMYR1KqmCSU93JmbgYEBAAAA//9CdzCtHYtuBnrSQ092qA5nYGAAAAAA//8i1sH0AITbLwwMDAAAAAD//xpIB+MqcXDHIAMDAwAAAP//GiwhjMuRqOIMDAwAAAAA//8aTEmCMGBgYAAAAAD//xpaDmZgYAAAAAD//xpaDmZgYAAAAAD//xpaDmZgYAAAAAD//xpaDmZgYAAAAAD//xpaDmZgYAAAAAD//xpaDmZgYAAAAAD//xpaDmZgYAAAAAD//xpaDmZgYAAAAAD//yLWwSQPeNDETAYGBgAAAAD//0J3MD6N1HQ0sWahyjEwMAAAAAD//8LXgMc2PoDc+KZGSGNzOG5zGRgYAAAAAP//wuVg9L4VrEMIk6PWgAqMRh/9we5oBgYGAAAAAP//QnYwegcRuY+Fa8yNGo5FH1TBPWzFwMAAAAAA//9CD2FsjoUNcMBClprDsMh2wQZVsDkaAhgYGAAAAAD//8LlYJjGP0ji1Bj5weVoZPvQHY0ADAwMAAAAAP//Qk8SIAehj3MhO5ZWIYweo8jDVQhHMzAwAAAAAP//gjkYfUgIWTGtHIvP0dhHMhkYGAAAAAD//8KWJGAOxlZC0MrByA7HnYYZGBgAAAAA///C1QGk5gg8Pkeii6E7HlUtAwMDAAAA//8i5BBqj0fgArhqPlSPMTAwAAAAAP//Inakh94Ae8XBwMAAAAAA//8aWpiBgQEAAAD//xpamIGBAQAAAP//AwAj/MxMP6eMnwAAAABJRU5ErkJggg=="/>
     <path class="cls-1" d="m25.5,25c-.55,0-1,.45-1,1v12c0,.55.45,1,1,1h13c.55,0,1-.45,1-1v-9.5c0-1.5-2.5-3.5-4-3.5h-10Z"/>

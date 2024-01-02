@@ -10,7 +10,7 @@
         stroke-width: 0px;
       }
 
-      .cls-8, .cls-2, .cls-5 {
+      .cls-8, .cls-2, .cls-4 {
         isolation: isolate;
       }
 
@@ -24,11 +24,15 @@
       }
 
       .cls-4 {
-        fill: none;
+        opacity: .15;
       }
 
       .cls-5 {
-        opacity: .15;
+        fill: none;
+      }
+
+      .cls-9 {
+        opacity: .75;
       }
 
       .cls-6 {
@@ -56,15 +60,15 @@
       <stop offset="1" stop-color="#bebebe"/>
     </linearGradient>
   </defs>
-  <rect class="cls-4" width="64" height="64"/>
+  <rect class="cls-5" width="64" height="64"/>
   <rect class="cls-7" x="4" y="3.97" width="56" height="56" rx="13" ry="13"/>
-  <g>
+  <g class="cls-9">
     <path class="cls-2" d="m24.5,20.48c-2.22,0-4,1.78-4,4v15c0,2.22,1.78,4,4,4h15c2.22,0,4-1.78,4-4v-15c0-2.22-1.78-4-4-4h-15Zm0,.51h14v1.5h-16.02v.5h16.02v1.5h-15.72v.5h15.72v17.63h.5v-17.63h1.5v16.1h.5v-16.1h1.98v14.48c0,1.92-1.55,3.48-3.47,3.48,0,0,0,0-.01,0h-15c-1.92,0-3.48-1.55-3.48-3.47,0,0,0,0,0-.01v-15c0-1.92,1.55-3.48,3.47-3.48,0,0,0,0,.01,0h0Zm14.5,0h.5c.34,0,.68.05,1,.15v1.35h-1.5v-1.5Zm2,.34c.55.26,1.02.66,1.37,1.16h-1.37v-1.16Zm-2,1.66h1.5v1.5h-1.5v-1.5Zm2,0h1.65c.22.46.33.97.33,1.48v.02h-1.99v-1.5Z"/>
-    <path class="cls-5" d="m24.5,19c-3.02,0-5.48,2.44-5.49,5.46,0,0,0,.02,0,.02v15c0,3.02,2.44,5.48,5.46,5.49,0,0,.02,0,.02,0h15c3.02,0,5.48-2.44,5.49-5.46,0,0,0-.02,0-.02v-9.02c0-3.46-8.26-11.46-11.59-11.46h-8.89Z"/>
+    <path class="cls-4" d="m24.5,19c-3.02,0-5.48,2.44-5.49,5.46,0,0,0,.02,0,.02v15c0,3.02,2.44,5.48,5.46,5.49,0,0,.02,0,.02,0h15c3.02,0,5.48-2.44,5.49-5.46,0,0,0-.02,0-.02v-9.02c0-3.46-8.26-11.46-11.59-11.46h-8.89Z"/>
     <path class="cls-6" d="m24.5,19.5c-2.77,0-5,2.23-5,5v15c0,2.56,1.93,4.71,4.48,4.97.29-.01.57-.02.72,0h0c.19.02.39.03.59.03h14.19c2.77,0,5-2.23,5-5v-8.83c0-2.68-8.48-11.17-11.16-11.17h-8.84Z"/>
     <image class="cls-8" width="37" height="37" transform="translate(28.72 16.33) scale(.5)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAmCAYAAABDClKtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAD0UlEQVRYhWIYdICBgQEAAAD//xp8mIGBAQAAAP//GnyYgYEBAAAA//9ixOMqfHL/aeYbBgYGAAAAAP//YsEihuwYfA6DAeo6kIGBAQAAAP//QrcU3UEwPoyGOQCdpp7jGBgYAAAAAP//wuUomIOQMTIAOQAdU8dhDAwMAAAAAP//whZVMIcwodHIoQXD/6AYxqfcYQwMDAAAAAD//8KWptAdxozkMBiAOQamjnoOY2BgAAAAAP//wpXQsTkKRMMcBnPUXyQME4MB8hzGwMAAAAAA///CFVIwx4EcA8IgdcghBnPAHyQxkMNgNDIgzXEMDAwAAAAA//8iFH3IocWKFlogy0F8mMNANAjD5GAOAqkn3mEMDAwAAAAA///C5ShkQ9AdhhxaIMt/MzAw/MKSQ5EzAfEOY2BgAAAAAP//QnYUumZ8DoOpg4UWLJqRcymy44h3GAMDAwAAAP//IhRSyDkKZCjIASAM04eertALXFh0whxGGDAwMAAAAAD//8LmKGwFI7KByDkSJI6cAbAVssg0OhsTMDAwAAAAAP//QncULJjRHYec3WFRCdILS1vYQgodIOdK3A5jYGAAAAAA///CF33IjkEul7BFJ7qDcIUyYYcxMDAAAAAA///CV06hOwxWQMJomMNAGJb4sTkIHeNP+AwMDAAAAAD//wL5EhfAVlahY1y5jpDDcAMGBgYAAAAA///C5ShsrQWYA5AxTBymFlvTBjnECdeNDAwMAAAAAP//wucofM0YfLkN3RHoLQl0h6GawcDAAAAAAP//whd96A5EdyQ2x8DY2ByE7jDsocXAwAAAAAD//yImTSH7BlfawZZD0TMIMhu3wxgYGAAAAAD//yKU+2AAObchOwbWdIG1ImDFA8xRyEUIsqeQMWpOZGBgAAAAAP//wucoZMfBHIVc+yO3p2BVD3KZhawGuZ2FHtqoRQMDAwMAAAD//yLkKGRfwAxGT8yg+g25vYXcSkV3PLJe7CU/AwMDAAAA//8iNqSQHYbsIOQ2FbZyCxYC6OkJZi4mYGBgAAAAAP//IsZR6A6DWYLsOFgjD19hipwZcJdTDAwMAAAAAP//IqaziUs9tkSLq2uG7hncvSAGBgYAAAAA//8iNqRgALnAQ08bpJRnuEOKgYEBAAAA//8iNaQImYGtXEMH2BqQCEcyMDAAAAAA//+ihqPwmYfPfOwNPwYGBgAAAAD//yKmmqElwIxGBgYGAAAAAP//ojfG1zKFAAYGBgAAAAD//xp8mIGBAQAAAP//GnyYgYEBAAAA//8afJiBgQEAAAD//wMA4SQLK2u+X6cAAAAASUVORK5CYII="/>
     <path class="cls-1" d="m33.34,19.51c1.79.45,2.23,3.12,2.68,4.91.43,1.73,1.42,2.92,4.02,3.57,1.78.45,3.57.29,4.46,2.68,0-.01,0-.02,0-.03-.05-3.12-7.41-10.6-10.81-11.11-.12,0-.23-.01-.35-.02h0Z"/>
-    <path class="cls-5" d="m25,28.5v3.83s2.83-2.04,2.83,1.65-2.83,2.23-2.83,2.23v3.5h3.83s-1.45-2.94,1.84-2.89c3.54.05,1.98,2.89,1.98,2.89h3.54v-3.69s2.78,1.22,2.8-1.77c.02-2.22-1.05-2.55-2.8-1.92v-3.83h-3.5s1.42-2.8-1.98-2.8-1.89,2.8-1.89,2.8h-3.83Z"/>
+    <path class="cls-4" d="m25,28.5v3.83s2.83-2.04,2.83,1.65-2.83,2.23-2.83,2.23v3.5h3.83s-1.45-2.94,1.84-2.89c3.54.05,1.98,2.89,1.98,2.89h3.54v-3.69s2.78,1.22,2.8-1.77c.02-2.22-1.05-2.55-2.8-1.92v-3.83h-3.5s1.42-2.8-1.98-2.8-1.89,2.8-1.89,2.8h-3.83Z"/>
     <path class="cls-3" d="m25,27.8v3.83s2.83-2.04,2.83,1.65-2.83,2.23-2.83,2.23v3.5h3.83s-1.45-2.94,1.84-2.89c3.54.05,1.98,2.89,1.98,2.89h3.54v-3.69s2.78,1.22,2.8-1.77c.02-2.22-1.05-2.55-2.8-1.92v-3.83h-3.5s1.42-2.8-1.98-2.8-1.89,2.8-1.89,2.8h-3.83Z"/>
   </g>
 </svg>
